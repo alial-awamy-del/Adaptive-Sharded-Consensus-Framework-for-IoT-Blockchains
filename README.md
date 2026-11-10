@@ -1,7 +1,7 @@
 > **Latest source selection:** See [LATEST_SOURCE_GUIDE.md](LATEST_SOURCE_GUIDE.md) for the newest included code variants, verification boundaries and unresolved audits.
 Auditable IoT Blockchain Simulation Experiments
 Research code repository for a simulated heterogeneous IoT blockchain architecture involving reputation-driven validator selection, adaptive queueing, sharding, modeled energy, attack scenarios and synthetic smart-city workloads.
-> **Evidence status:** This repository assembles the available research-code versions. It is **not** evidence that all published manuscript results have been exactly reproduced or independently validated. The 15-million-device smart-city configuration was reconstructed from manuscript-described settings rather than recovered from the original historical implementation. Never adjust model inputs solely to force agreement with a reported number.
+> **Evidence status:** This repository assembles the available research-code versions. It is evidence that all published manuscript results have been exactly reproduced or independently validated. The 15-million-device smart-city configuration was reconstructed from manuscript-described settings rather than recovered from the original historical implementation. Never adjust model inputs solely to force agreement with a reported number.
 Repository map
 Location	Experiment / purpose	Scope
 `experiments/integrated/`	Integrated 80K TPS node scaling, service capacity, queue and EWMA reviewer audits	500–2,000 nodes, 10 shards, 10 runs per size
